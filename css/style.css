@@ -1,3 +1,206 @@
-﻿body
+﻿
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Heebo|Indie+Flower|Merriweather|Mountains+of+Christmas|Noto+Serif|Slabo+27px|Work+Sans&display=swap'); 
+
+
+
+
+*
 {
+    box-sizing: border-box;
 }
+
+header,
+section{
+overflow-x:hidden;
+}
+
+
+:root{
+    --DM:"DM Serif Display",cursive; 
+    --Heebo:"Heebo",cursive; 
+    --Indie:"Indie Flower",cursive; 
+    --Merrie:"Merriweather",cursive; 
+    --Mountains:"Mountains of Christmas",cursive; 
+    --Noto:"Noto Serif",cursive; 
+    --lightblack: #2e2e2e;
+    --bggradient: linear-gradient(to bottom,#dd2476,#ff512ff);
+    --lightgray: rgba(255,255,255,0);
+}
+
+header
+{
+    background:  #115e75;
+}
+
+header a
+{
+    font-family: var(--Heebo);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header .nav-item
+{
+    padding: 0.9em;
+}
+header .nav-item:last-child
+{
+    padding-right: 10.5em;
+} 
+
+header .navbar-brand
+{
+    padding-left: 8rem;
+}
+
+header .nav-link:hover{
+    color:black;
+}
+
+header .row .col-md-5
+{
+    padding:4.2vmin 1vim;
+}
+
+header .row .col-md-7
+{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Noto);
+    color: aliceblue;
+}
+
+header .row .col-md-5 img
+{
+    width:100%;
+    margin-top: 5em;
+    margin-left: -2em;
+    
+}
+
+header .container-fluid .col-md-7 h6
+{
+    padding: 1em;
+    
+    font-size: 2em;
+}
+
+header .container-fluid .col-md-7 h1
+{
+    font-size: 4em;
+    font-weight: bold;
+    padding:0.1em 0em;
+}
+
+header .container-fluid .col-md-7 p
+{
+    padding: 1em 5em;
+    
+}
+
+/*
+section 1 */
+
+.section-1
+{
+    padding: 5em;
+    background: wheat;
+}
+
+.section-1 .row .col-md-6 .pray img
+{
+    border-radius: 2em;
+    height: auto;
+    
+}
+
+.section-1 .row .col-md-6:last-child
+{
+    position: relative;
+
+}
+
+.section-1 .row .col-md-6 .panel
+{
+    position: absoulte;
+    top: 2em;
+    padding: 2em;
+    border-radius: 2em;
+    font-family: var(--Merrie);
+    font-size: 1em;
+    
+}
+
+.section-1 .row .col-md-6 .panel h1
+{
+    
+    padding: 0.4em;
+    
+    
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+
+.section-1 .row .col-md-6 .panel p
+{
+    font-size: 1em;
+    color: rgba(0,0,0,0.5);
+}
+
+
+/* Section 2 */ 
+
+.section-2 .cover .content h1{
+    padding-top: 2em;
+    padding-bottom: 0.1em;
+    font-family: var(--Indie);
+    font-weight: bold;
+}
+
+.section-2 
+{
+    background-color: silver;
+    padding: 5em;
+}
+
+.section-2 .cover .content p
+{
+    padding-top: 1em;
+    padding-bottom: 0.1em;
+    font-family: var(--Heebo);
+    font-weight: lighter;
+    color: #2e2e2e;
+}
+
+.section-2 .numbers .rec .caption
+{
+    font-family: var(--Heebo);
+    font-weight: lighter;
+    color: #2e2e2e;
+}
+
+.section-2 .numbers .rec .btn
+{
+    font-family: var(--DM);
+    font-weight: bolder;
+    color: blue;
+    background: whitesmoke;
+    border-radius: 2em;
+    border-block-color: red; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
